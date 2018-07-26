@@ -2,8 +2,8 @@
 
 # The main ajenda of this project is 
   # 1.
-    implement an API in order to expose the data related with a city defined with : city, destiny city,arival time, 
-    departure time sored iin database
+    implement an API in order to expose the data related with a city defined with : city, 
+    destiny city,arival time, departure time sored in database
 In this Challenge, designed microservices:s
 - `itinerary-service` - For interactive with MySQL DB
 - `consumer-service` - For consuming the itinerary-service api
