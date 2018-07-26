@@ -16,14 +16,15 @@ In this Challenge, designed microservices:s
 - use maven for building all these 3 projects
 
 # how to run these micro-services
-- once after done with build run 3 servies as a simples java project form you IDE
+- Once after done with build run 3 servies as a simples java project form you IDE
 - All three projects are developed using Spring boot so we no need to deploy in externalised tomcat
-- one can you embedded tomcat
+- We can use embedded tomcat
 - make sure all the services are up and running 
 
 # how to use these micro-services
-- All the servies are up and running 
+- Once all the servies are up and running 
 - you can use opstman or rest client to test these servies by using below urls
 
-- http://localhost:8301/rest/itinary/lessintime/{hyderabad}
-- http://localhost:8301/rest/itinary/lessinconnections/{hyderabad}
+- http://localhost:8301/rest/itinary/lessintime/{cityname}
+
+- http://localhost:8301/rest/itinary/lessinconnections/{cityname}
