@@ -1,0 +1,28 @@
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8302/eureka/
+  instance:
+    hostname: localhost
+
+
+server: 
+  port: 8300
+
+spring: 
+  application: 
+    name: itinerary-service
+  datasource: 
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+    testWhileIdle: true
+    validationQuery: SELECT 1
+  jpa: 
+    show-sql: true
+    hibernate: 
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      dialect: org.hibernate.dialect.MySQL5Dialect
