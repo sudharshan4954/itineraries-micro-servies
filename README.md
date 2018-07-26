@@ -2,8 +2,11 @@
 
 # The main ajenda of this project is 
   # 1.
-    implement an API in order to expose the data related with a city defined with : city, 
+    Implement an API in order to expose the data related with a city defined with : city, 
     destiny city,arival time, departure time sored in database
+   # 2
+    Implementing rest servies that consumes above API in order to calculate the shortest way 
+    to travel from one city to another,independent of the departure time
 In this Challenge, designed microservices:s
 - `itinerary-service` - For interactive with MySQL DB
 - `consumer-service` - For consuming the itinerary-service api
